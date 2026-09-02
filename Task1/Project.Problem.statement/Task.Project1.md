@@ -4,14 +4,14 @@
 
 ## Executive Summary
 
-Emily, a marketing manager at a tech startup, recently attended a comprehensive multi-part webinar series covering key topics including:
+Emily, a marketing manager at a tech startup, recently attended a comprehensive multi-part webinar series covering key topics including that is already given in the Project.Problem.Requirement.files:
 
 - **Content Marketing Strategies**
 - **Data Analytics for Marketers**
 - **Social Media Advertising**
 - **Advanced Strategies for Social Media Marketing**
 
-Because each session ran for 3 to 4 hours, the resulting transcript files are exceptionally lengthy and dense. To enable Emily to efficiently extract key insights and share them across her team, this project aims to build an automated **Document Summarization and Interactive Question-Answering (QA) System** leveraging **LangChain**, **FAISS**, and **Ollama (`llama3`)**.
+Because each session ran for 3 to 4 hours, the resulting transcript files are exceptionally lengthy and dense. To enable Emily to efficiently extract key insights and share them across her team, this project aims to build an automated **Document Summarization and Interactive Question-Answering (QA) System** leveraging **LangChain**, **FAISS**, and **Ollama**.
 
 ---
 
@@ -20,7 +20,7 @@ Because each session ran for 3 to 4 hours, the resulting transcript files are ex
 | Component | Technology | Description |
 | --- | --- | --- |
 | **LLM & Agent Framework** | **LangChain** | Orchestrates document loaders, prompt templates, and retrieval chains. |
-| **Local LLM** | **Ollama (`llama3`)** | Serves the `llama-3` model locally via `ChatOllama` for privacy and cost-efficiency. |
+| **Local LLM** | **Ollama** | Serves the any model locally via `ChatOllama` for privacy and cost-efficiency. |
 | **Embeddings** | **HuggingFace / Ollama** | Generates vector representations of document chunks (`all-MiniLM-L6-v2` or `nomic-embed-text`). |
 | **Vector Store** | **FAISS** | Facebook AI Similarity Search database for fast similarity retrieval and metadata management. |
 | **User Interface** | **Streamlit** | Python-native Web UI for document upload, processing status, summary display, and interactive chat. |
